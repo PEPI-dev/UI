@@ -1,0 +1,24 @@
+.container{
+    margin-top: 70px;
+}
+
+.button{
+    width: 100%;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.input_form{
+    padding-top: 30px;
+    margin: 10px auto;
+}
+
+#find_id{
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+label{
+    font-size: 1.3rem;
+}

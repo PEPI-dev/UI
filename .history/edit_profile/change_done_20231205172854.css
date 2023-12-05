@@ -1,0 +1,12 @@
+.txt{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.line {
+    border-top: 7px solid #6558b12d;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

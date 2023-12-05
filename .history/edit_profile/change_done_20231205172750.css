@@ -1,0 +1,12 @@
+.txt{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.line {
+    border-top: 3px solid #000; /* 1px 두께의 검은 선 */
+    width: 80%; /* 선의 너비 */
+    margin: 0 auto; /* 가운데 정렬을 위해 */
+    margin-top: 20px; /* 위쪽 여백 조절 */
+    margin-bottom: 20px; /* 아래쪽 여백 조절 */
+}

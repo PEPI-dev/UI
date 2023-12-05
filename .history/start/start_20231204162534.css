@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'main_font';
+    src: url(../a_font/SOYO_maple_font/soyo_ttf/SOYO\ Maple\ Regular.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'sub_font';
+    src: url(../a_font/s);
+}
+
+body{
+    width: 100%;
+    background-color: white;
+}
+
+#logo_text{
+    font-family: 'main_font';
+}
+
+#line{
+    border: 0.5px solid #A1A5AC;
+    width: 277px;
+    margin-top: 70px;
+}
+
+#login{
+    background-color: #6658B1;
+    color: white;
+    border: 1px solid #E1E1E1;
+}
+
+#resister{
+    background-color: #F0F0F0;
+    color: #4D4C58;
+    border: 1px solid #6C6591;
+    
+}
+
+@media screen and (max-width: 360px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    #logo {
+        margin-top: 100px; 
+    }
+
+    #slogan {
+        margin-bottom: -81px;
+        font-size: 11.5px;
+        margin-left: 55px;
+    }
+
+    #login_logo{
+        margin-top : -40px;
+        width: 300px;
+    }
+    
+    form {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .button_form {
+        margin: 10px 0;
+        padding-top: 15px;
+    }
+    
+    .btn{
+        font-family: 'sub_font';
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 17px;
+        border: 0px;
+        width: 277px;
+        height: 50px;
+    }
+    
+}

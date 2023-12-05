@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'main_font';
+    src: url(../a_font/NotoSansKR-VariableFont_wght.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'sub_font';
+    src: url(../a_font/SEBANG/SEBANG\ Gothic.ttf);
+}
+
+
+
+body {
+    width: 100%;
+    background-color: #F7F7F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 뒤로가기 버튼 */
+.xi-angle-left {
+    color: #6658B1;
+}
+
+#txt_login {
+    font-family: 'main_font';
+}
+
+#div_back {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#back {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+
+@media screen and (max-width: 360px) {
+
+    /* 뒤로가기 */
+
+    
+
+    #div_back {
+        padding: 1px;
+        margin-top: 35px;
+    }
+
+
+
+}

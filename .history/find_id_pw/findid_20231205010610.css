@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'main_font';
+    src: url(../a_font/NotoSansKR-VariableFont_wght.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'sub_font';
+    src: url(../a_font/SEBANG/SEBANG\ Gothic.ttf);
+}
+
+/* 바디 */
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #F7F7F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 뒤로가기 버튼 */
+.xi-angle-left {
+    color: #6658B1;
+}

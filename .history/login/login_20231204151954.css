@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'main_font';
+    src: url(../a_font/SOYO_maple_font/soyo_ttf/SOYO\ Maple\ Regular.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'sub_font';
+    src: url(../a_font/NPSfont_regular.ttf);
+}
+
+body{
+    width: 100%;
+    background-color: #F7F7F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo{
+    font-family: 'main_font';
+}
+
+#login-header {
+    display: flex;
+    align-items: center;
+}
+
+#back {
+    border: none; 
+    background: none; 
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#back img {
+    width: 24px; 
+    height: 24px; 
+    margin-right: 5px;
+}
+
+.input_form {
+    padding: 3px; 
+    margin-top: 2px;
+    margin-right: 12px;
+}
+
+.field {
+    width: 270px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.12);
+    background-color: #F7F7F9;
+    border-width: 0;
+    outline: none;
+    border: none;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-left: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 360px) {
+    body {
+        height: auto;
+    }
+}

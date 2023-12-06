@@ -1,0 +1,110 @@
+.top_bar {
+    height: 5.1rem;
+    background-color: #6658B1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem; /* Adjust padding as needed */
+}
+
+#logo {
+    margin-top: 20px;
+    margin-left: auto;
+    color: white;
+    width: 10.625rem;
+    height: 10.625rem;
+}
+
+.status {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#alarm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    width: 50%;
+    margin: auto;
+    margin-top: 3.3rem;
+}
+
+#current_time{
+    font-size: 0.65rem;
+}
+
+
+/* 메시지 상자 */
+
+/* .message{
+    height: 7.3rem;
+    color: white;
+    background-color: #6658B1;
+    border-radius: 17px;
+    padding: 0.7rem;
+    padding-left: 1.25rem;
+}
+
+#receive_time{
+    font-size: 0.7rem;
+    margin-left: 8.5625rem;
+}
+
+#where,#persons{
+    font-size: 1.2rem;
+} */
+
+/* 리스트 용 */
+
+.message{
+    height: 7.5rem;
+    width: 100%;
+    color: white;
+    background-color: #6658B1;
+    border-radius: 17px;
+    margin-left: -1.125rem;
+}
+
+.info{
+    margin-bottom: -0.625rem;
+}
+
+.receive_time{
+    font-size: 0.7rem;
+    text-align: end;
+    padding-top: 0.9375rem;
+    margin-right: 0.8rem;
+}
+
+.where{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.persons{
+    font-size: 1.2rem;
+    text-align: start;
+    margin-left: 0.625rem;
+}
+
+.msg_list{
+    margin-top: 5.625rem;
+    list-style-type: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
